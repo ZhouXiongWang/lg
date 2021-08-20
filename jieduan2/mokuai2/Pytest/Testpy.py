@@ -22,3 +22,4 @@ class Test_calc:
     @pytest.mark.parametrize(("a", "b","c"), yaml.safe_load(open("./Data.yaml")))
     def test_jfyaml(self, a, b,c):
         print(f"{a}+{b}={c}")
+pytest
